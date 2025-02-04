@@ -21,7 +21,7 @@ Potrebni alati: JDK, Maven, ChromeDriver, TestNG, IntelliJ
 Za pocetak testova se otvara Google Chrome , maksimizira prozor te kreću 5 testova
 
 1.	googleSearchTest() - pronalazak stranice na webu
-- klikanje "reject" buttona
+- klik na "reject" button
 - traženje pojma "hcl hr" na google
 - u ovom koraku je ostavljeno korisniku vremena da se rješi captcha
 - nakon uspješne pretrage se gledaju rezultati i traži se stranica hcl-a
@@ -34,12 +34,12 @@ Za pocetak testova se otvara Google Chrome , maksimizira prozor te kreću 5 test
 3.	GameBaseTest() - testiranje baze igara na hcl
 - pronalazak baze igara
 - ulazak u stranicu baze igara
-- provjera je li stranica točna
+- provjera je li uspješno otvorena baza igara
 
 4.	ShopTest() - testiranje hcl trgovine
 - pronalazak shop-a
 - ulazak u stranicu shop-a
-- provjera je li stranica točna
+- provjera je li uspješno otvoren shop
 
 5.	LoginTest() - testiranje logina
 - povratak na glavnu stranicu hcl-a
